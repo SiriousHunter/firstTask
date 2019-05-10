@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sum</title>
+</head>
+<body>
+	<input type="number" placeholder="Первое число">
+	<input type="number" placeholder="Второе число">
+	<button onclick="sum()">Сложить</button>
+	<script>
+		function sum(){
+			let numbers = document.getElementsByTagName('input')
+			let sum = +numbers[0].value + +numbers[1].value
+			alert(sum)
+		}
+		
+	</script>
+</body>
+</html>
